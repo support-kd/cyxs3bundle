@@ -1,4 +1,4 @@
 services:
-#    supportkd_cyx_s3.example:
+#    support_kd_cyx_s3.example:
 #        class: SupportKd\CyxS3Bundle\Example
 #        arguments: ["@service_id", "plain_value", "%parameter%"]
