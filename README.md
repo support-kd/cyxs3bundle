@@ -47,7 +47,7 @@ Add following lines in your configuration:
 ``` yaml
 # app/config/config.yml
 
-supportkd_cyx_s3:
+support_kd_cyx_s3:
     key: "%amazon_s3_key%"
     secret: "%amazon_s3_secret%"
     region: "%amazon_s3_region%"
