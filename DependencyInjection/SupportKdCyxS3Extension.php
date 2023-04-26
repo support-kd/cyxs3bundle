@@ -21,10 +21,10 @@ class SupportKdCyxS3Extension extends Extension
     {
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
-        $container->setParameter('supportkd_cyx_s3.key', $config['key']);
-        $container->setParameter('supportkd_cyx_s3.secret', $config['secret']);
-        $container->setParameter('supportkd_cyx_s3.region', $config['region']);
-        $container->setParameter('supportkd_cyx_s3.version', $config['version']);
+        $container->setParameter('support_kd_cyx_s3.key', $config['key']);
+        $container->setParameter('support_kd_cyx_s3.secret', $config['secret']);
+        $container->setParameter('support_kd_cyx_s3.region', $config['region']);
+        $container->setParameter('support_kd_cyx_s3.version', $config['version']);
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
