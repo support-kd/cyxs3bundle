@@ -1,0 +1,3 @@
+supportkd_cyx_s3_homepage:
+    path:     /
+    defaults: { _controller: SupportKdCyxS3Bundle:Default:index }

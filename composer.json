@@ -1,0 +1,32 @@
+{
+  "name": "supportkd/cyxs3bundle",
+  "type": "symfony-bundle",
+  "description": "CyxS3 bundle Upload files to AmezonS3 and provides public URL",
+  "keywords": ["AmezonS3", "symfony"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yogesh",
+      "email": "yogesh.bhatt2009@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.2.7",
+    "symfony/framework-bundle": "^3.0",
+    "aws/aws-sdk-php": "^3.32"
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": "~3.2@dev",
+    "phpunit/phpunit": "^4.8"
+  },
+  "autoload": {
+    "psr-4": { "SupportKd\\CyxS3Bundle\\": "" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "dev-master"
+    }
+  },
+  "minimum-stability": "dev"
+}
