@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('supportkd_cyx_s3');
+        $rootNode = $treeBuilder->root('support_kd_cyx_s3');
         $rootNode
             ->children()
                 ->scalarNode('key')
