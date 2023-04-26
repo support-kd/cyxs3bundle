@@ -51,10 +51,10 @@ class CyxAwsModel
 	
     public function __construct($container)
     {
-        $this->key = $container->getParameter('supportkd_cyx_s3.key');
-        $this->secret = $container->getParameter('supportkd_cyx_s3.secret');
-        $this->region = $container->getParameter('supportkd_cyx_s3.region');
-        $this->version = $container->getParameter('supportkd_cyx_s3.version');
+        $this->key = $container->getParameter('support_kd_cyx_s3.key');
+        $this->secret = $container->getParameter('support_kd_cyx_s3.secret');
+        $this->region = $container->getParameter('support_kd_cyx_s3.region');
+        $this->version = $container->getParameter('support_kd_cyx_s3.version');
 
     }
 
